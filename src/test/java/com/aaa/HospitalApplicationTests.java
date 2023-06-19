@@ -11,6 +11,7 @@ public class HospitalApplicationTests {
 
     @Test
     public void contextLoads() {
+
     }
 
 }

@@ -156,7 +156,7 @@
       $.post("user/editPwd",{loginname:loginname,pwd:pwd,pwd1:pwd1},function(obj){
           if(obj==1){
               setTimeout(function(){
-                  window.parent.location.href="../sel/toLogin";//#设定跳转的链接地址
+                  window.parent.location.href="http://localhost:8080/hospital_war_exploded/sel/toLogin";//#设定跳转的链接地址
               },3000)
 
               layer.msg("修改成功",{
